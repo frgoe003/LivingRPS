@@ -25,8 +25,6 @@ paper_aud = new Audio('assets/paper_aud.mp3');
 scissor_aud = new Audio('assets/scissor_aud.mp3');
 rock_aud = new Audio('assets/rock_aud.mp3');
 
-
-console.log(document.getElementById("test").offsetWidth);
 // vars
 canvas.width = document.getElementById("canvasWrapper").offsetWidth*0.8;
 canvas.height = canvas.width*(16/9)*0.8;
@@ -312,9 +310,9 @@ function getSelectedRadio() {
                 case "opt1":
                     return 1
                 case "opt2":
-                    return 2
-                case "opt3":
                     return 3
+                case "opt3":
+                    return 2
                 default: 
                     return 0
             }

@@ -1,14 +1,45 @@
 body{
   background-color:#ffffff;
   background-image: url('assets/bg.png');
+  -webkit-background-size: 100%; 
+  -moz-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
 }
 #canvas{
   border:3px solid black;
   text-align:center;
+  border-radius: 10px;
 }
 
-.navbar{
+#content{
+  margin-top:20px;
+}
 
+#title{
+  color: black; 
+}
+
+.bg-light{
+  font-family: 'monospace', Courier;
+  background-color: #efd8b0;
+  opacity: 0.95;
+}
+.navbar-brand{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.textLabel{
+  color: #111; 
+  font-family: 'monospace', Courier;
+  font-size: 23px;
+  margin-top: 5px;
+  font-weight: 600;
 }
 
 #canvasWrapper{
@@ -17,7 +48,9 @@ body{
 
 #valWrapper{
   background-color:#ffffff;
-
+  opacity: 0.98;
+  border-radius: 10px;
+  border:3px solid black;
 }
 
 canvas{
